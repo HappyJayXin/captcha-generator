@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run tests
+npm test -- --run --passWithNoTests || { echo "🚨 Tests failed!"; exit 1; }
+
+# Run lint fixes
+npm run lint:fix || { echo "🛠️ Linting failed!"; exit 1; }
+
+# Run format fixes
+npm run format:fix || { echo "🎨 Formatting failed!"; exit 1; }
+
+# Re-add changed files
+git add .
