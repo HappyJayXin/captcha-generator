@@ -1,0 +1,109 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Ensures HTML5 elements (like article, aside, footer, etc.) display as block-level elements in all browsers */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/* Sets main element as a block-level element */
+main {
+  display: block;
+}
+
+/* Fixes display issue for audio element in IE 10 and earlier versions */
+audio {
+  display: inline-block;
+}
+
+/* Hides audio elements without controls */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* Fixes display issue for progress element in IE 10 and earlier versions */
+progress {
+  display: inline-block;
+}
+
+/* Hides the template element */
+template {
+  display: none;
+}
+
+/* Fixes default border and margin issues for fieldset */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* Fixes padding and margin issues for legend element */
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+/* Fixes overflow issues for button and input elements */
+button,
+input {
+  overflow: visible;
+}
+
+/* Fixes text-transform issue for select elements */
+select {
+  text-transform: none;
+}
+
+/* Ensures consistent appearance for button elements */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/* Removes default styles from button and input elements */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/* Fixes focus style for button and input elements */
+button:-moz-focusring,
+input:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+textarea {
+  overflow: auto;
+}
+
+/* Fixes font inheritance issues for optgroup elements */
+optgroup {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+/* Fixes border-collapse property for table elements */
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0;
+}

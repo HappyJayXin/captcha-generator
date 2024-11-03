@@ -1,0 +1,19 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-variation-settings: "opsz" 24;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+}
